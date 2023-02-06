@@ -29,7 +29,7 @@ provider "azurerm" {
 
 #RG01
 resource "azurerm_resource_group" "rg01" {
-    name = "demo-rg"
+    name = "demo-rg01"
     location = "East US"
       tags = {
         "Environment" = "Test"
